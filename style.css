@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* padding: 0 100px; */
+}
+nav {
+  font-size: 20px;
+  padding: 60px 100px;
+  background-color: #edf2ec;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+}
+.navbar p {
+  margin-left: 40px;
+}
+.navbar p:hover {
+  color: coral;
+  cursor: pointer;
+}
+/* ===============Main */
+.main {
+  padding: 0 90px;
+  background-color: #edf2ec;
+  display: flex;
+  justify-content: space-around;
+}
+.image {
+  flex: 1;
+}
+.text h1 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+.text span {
+  color: green;
+}
+.text {
+  flex: 1;
+}
+/* ============ Info */
+.info {
+  padding: 0 100px;
+  display: flex;
+}
+
+.info_text {
+  flex: 1;
+}
+.info_image {
+  flex: 1;
+}
+
+/*================ service */
+.services {
+  background-color: #edf2ec;
+}
+.projects_btn {
+  padding: 0 100px;
+  display: flex;
+}
+.projects_btn h1 {
+  margin-right: 120px;
+}
+
+.projects_btn button {
+  margin-left: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 100px;
+  gap: 50px;
+}
+.item {
+  width: 330px;
+  border: 1px solid #e3e1d5;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+}
+/* ============ prices */
+.prices {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_us {
+  background-color: #edf2ec;
+  display: flex;
+  padding: 0 100px;
+}
+.contact_us img {
+  flex: 1;
+}
+.contact_info {
+  flex: 1;
+}
+
+/* ============  Footer */
+.footer {
+  padding: 40px 100px;
+  margin-bottom: 200px;
+  font-size: 25px;
+  display: flex;
+
+  justify-content: space-between;
+}
+.github {
+  word-spacing: 20px;
+}
+.icons > i{
+    font-size: larger;
+    margin-left: 20px;
+}
